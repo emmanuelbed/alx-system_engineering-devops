@@ -1,11 +1,7 @@
 for file in *; do
 
-  output=$(file -b "$file")
+  output=$(file -b --mime-type "$file")
 
-  if [ "$output" = "School data file" ]; then
-
-    echo "$file: $output"
-
-  fi
+  echo "$file: $output"
 
 done
