@@ -1,0 +1,2 @@
+#!/bin/bash
+cp $(ls *.html | xargs -I {} sh -c '[[ ! -e ../{} ]] || [[ {} -nt ../{} ]] && echo {}') ..
