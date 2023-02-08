@@ -1,1 +1,2 @@
-echo $(file -m /path/to/school.mgc/path/to/file)
+0 string SCHOOL School data
+!:mime School
