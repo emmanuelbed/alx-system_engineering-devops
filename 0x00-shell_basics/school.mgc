@@ -1,2 +1,11 @@
-0 string SCHOOL School data
-echo $(!:mime School)
+for file in *; do
+
+  output=$(file -b "$file")
+
+  if [ "$output" = "School data file" ]; then
+
+    echo "$file: $output"
+
+  fi
+
+done
