@@ -1,5 +1,2 @@
 #!/bin/bash
-
-cwd=$(cwd)
-
-$cwd
+$pwd
