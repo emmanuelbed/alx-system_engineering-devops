@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -m 751 root
+mkdir -m 751 0x01-shell_permissions
